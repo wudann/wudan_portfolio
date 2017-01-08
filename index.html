@@ -9,14 +9,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Wu.Dan Product Designer</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Theme CSS -->
+
     <!-- Theme CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/dan.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -35,14 +36,14 @@
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom dan_navbar">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">Wu.Dan</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -72,10 +73,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <img class="img-responsive" src="img/giphy.gif" alt="">
                     <div class="intro-text">
                         <span class="name">start Bootstrap</span>
-                        <hr class="star-light">
+<!--                        <hr class="star-light">-->
                         <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
                     </div>
                 </div>
@@ -89,7 +90,6 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Portfolio</h2>
-                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
@@ -158,19 +158,20 @@
     </section>
 
     <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
+    <section class="success"    id="about">
+        <div class="container dan_about">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Hi! I am Dan.</h2>
-                    <hr class="star-light">
+                <div class="col-lg-12 text-center  dan_about_text">
+                    <h2 class = "non_uppercase">Hi! I am Dan.</h2>
+<!--                    <hr class="star-light">-->
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <p>I am a Product Designer who enjoys crafting delightful user experience across multiple platforms and devices. Currently I work at Babbel in Berlin, we aim to provide the best language learning experience.</p>
+                <div class="col-lg-8 col-lg-offset-2 dan_about_text">
+                    <p>I am a Product Designer who enjoys crafting delightful user experience across multiple platforms and devices. Currently I work at <a href="https://www.babbel.com/" target="_blank"> Babbel</a> in Berlin, we aim to provide the best language learning experience.</p>
                     <p>With background in both industrial and interaction design, I am experienced in the entire design process: understanding users & metrics, ideation, prototyping, evaluation and iteration. Also, my teammates and colleagues often say they like to work with me:)</p>
                     <p>I am easily fascinated with any tiny pleasant details in life/ interesting people I've met / things I never tried before or any good combination of them. Besides designing stuff I'm busy with exploring new things, spotting cute faces, cooking or watching cartoons.</p>
+                    <p>Check my resume <a href="img/wudan-cv.pdf" target="_blank">here</a></p>
                 </div>
                 
                 
@@ -189,52 +190,9 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Contact Me</h2>
-                    <hr class="star-primary">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+
         </div>
     </section>
 
@@ -244,12 +202,6 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
@@ -268,10 +220,6 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -279,7 +227,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2016
+                        Copyright &copy; Wu.Dan 2016
                     </div>
                 </div>
             </div>
@@ -306,9 +254,9 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                                                        <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <h2>Play and Practice together</h2>
+
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:

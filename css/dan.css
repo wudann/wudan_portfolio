@@ -1,0 +1,18 @@
+.dan_navbar
+{
+    
+    text-transform: none
+}
+
+.dan_about{
+    background: #ffffff;
+}
+.dan_about_text{
+    
+    color:grey;
+}
+
+.non_uppercase
+{
+    text-transform: none
+}
