@@ -16,3 +16,19 @@
 {
     text-transform: none
 }
+.dan_home_title
+{
+    font-size: 1.5em;
+    margin-top: 150px;
+    
+}
+.dan_home_banner{
+    height: 460px;
+}
+.dan_profile_pic{
+    height:300px;
+}
+.img_cover{
+    background-size: cover;
+     background-image: url("thesiscover.png");
+}
